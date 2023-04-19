@@ -6,6 +6,9 @@
 
 # Lab Exercises
 
+### 1. 
+![image](https://user-images.githubusercontent.com/84441910/233054975-8195857f-5500-4021-8797-e470c4fb55f0.png)
+
 ## 3.
 
 ```
@@ -78,6 +81,7 @@ Added private fields for jen and ken to the BoaTest class, and initialized them 
 Note that the setUp method will be executed before each test method, so any changes made to the Boa objects during a test will not affect the objects used in other tests.
 
 ## 5.
+![image](https://user-images.githubusercontent.com/84441910/233055336-2b9ce63e-84ef-4016-9dcf-9ae85dd0d99a.png)
 
 ### testIsHealthy() method
 
@@ -113,6 +117,7 @@ public class BoaTest {
 Added assertions to the testIsHealthy method to check that the isHealthy method returns true for both Boa objects. We also added assertions to the testFitsInCage method to check that the fitsInCage method returns the expected results for the Boa objects.
 
 ### testFitsInCage() method
+
 
 ```
 import org.junit.Before;
@@ -151,8 +156,11 @@ public class BoaTest {
 Added assertions to the testFitsInCage method to check that the fitsInCage method returns the expected results for both jen and ken when the cage length is less than, equal to, and greater than the length of the boa.
 
 Note that the testFitsInCage method is now more robust, as it checks the behavior of the fitsInCage method for different input values.
+### 6. Running test cases
+![image](https://user-images.githubusercontent.com/84441910/233055458-edc26d82-7761-489e-ad83-6d6a53b9ec87.png)
 
 ## 7.
+![image](https://user-images.githubusercontent.com/84441910/233055714-9e9e60e0-1b06-44e3-af5a-15b1cad2c727.png)
 
 The updated code for the Boa class with the new lengthInInches() method:
 ```
